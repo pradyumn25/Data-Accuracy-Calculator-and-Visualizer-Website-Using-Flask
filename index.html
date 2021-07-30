@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Accuracy Calculator and Visualizer</title>
+</head>
+<body>
+    <h1>Data Accuracy Calculator and Visualizer</h1>
+    <form action="/plot" method="POST">
+        Choose a Csv File<input type="file" name="mycsv"><br>
+        Choose the target column<input type="text" name="target"><br>
+        Eliminate column(Please provide columns containing string or columns of no use seprated with ',' for example: address,name)<input type="text" name="eliminate">
+        <button type="submit">Click Here</button>
+    </form>
+</body>
+</html>
