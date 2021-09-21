@@ -9,9 +9,9 @@
 <body>
     <h1>Data Accuracy Calculator and Visualizer</h1>
     <form action="/plot" method="POST">
-        Choose a Csv File<input type="file" name="mycsv"><br>
-        Choose the target column<input type="text" name="target"><br>
-        Eliminate column(Please provide columns containing string or columns of no use seprated with ',' for example: address,name)<input type="text" name="eliminate">
+        Choose a Csv File<input type="file" name="mycsv" required><br>
+        Choose the target column<input type="text" name="target" required><br>
+        Eliminate column(Please provide columns containing string or columns of no use seprated with ',' for example: address,name)<input type="text" name="eliminate" required>
         <button type="submit">Click Here</button>
     </form>
 </body>
